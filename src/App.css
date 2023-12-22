@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  background-image: url("sql-testing.webp");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-size: 100% 100%;
+}
+
+.App {
+  max-width: 1300px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Query Editor styles */
+.CodeMirror {
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button styles */
+button {
+  margin: 10px;
+  background-color: green;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 300px;
+  left: 50%;
+}
+.container,
+.envbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px;
+  border: 3px solid green; */
+}
+
+.envbtn button {
+  background-color: rgb(213, 77, 213);
+  color: black;
+  width: 500px;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+/* Select styles */
+select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* DataTable styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Query Result styles */
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+h4 {
+  margin: 10px;
+  /* padding: 3px; */
+  background-color: rgba(255, 255, 0, 0.687);
+  border-radius: 5px;
+  color: green;
+  text-align: center;
+  width: auto;
+  /* text- */
+}
