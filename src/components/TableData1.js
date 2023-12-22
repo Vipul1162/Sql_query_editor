@@ -1,6 +1,7 @@
 // components/TableData1.js
 
 const TableData1 = () => {
+  // Return an array of objects, where each object represents a row of data
   return [
     { id: 1, name: 'John', age: 25, city: 'New York' },
     { id: 2, name: 'Alice', age: 28, city: 'Los Angeles' },

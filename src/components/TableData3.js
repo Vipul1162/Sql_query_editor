@@ -1,6 +1,7 @@
 // components/TableData3.js
 
 const TableData3 = () => {
+  // Return an array of objects, where each object represents a row of data
   return [
     { cityId: 1, cityName: 'New York' },
     { cityId: 2, cityName: 'Los Angeles' },

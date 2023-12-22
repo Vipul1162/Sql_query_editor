@@ -2,6 +2,7 @@
 // import React from 'react';
 
 const TableData5 = () => {
+  // Return an array of objects, where each object represents a row of data
   const data = [
     { name: 'John Doe', age: 25, City_name: 'New York' },
     { name: 'Black Adams', age: 30, City_name: 'Los Angeles' },

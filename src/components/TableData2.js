@@ -1,6 +1,7 @@
 // components/TableData2.js
 
 const TableData2 = () => {
+  // Return an array of objects, where each object represents a row of data
   return [
     { productId: 101, productName: 'Laptop', price: 1200 },
     { productId: 102, productName: 'Smartphone', price: 800 },
