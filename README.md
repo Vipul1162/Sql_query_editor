@@ -4,6 +4,10 @@
 
 This repository hosts a web-based SQL Editor application built using React. The application enables users to execute predefined SQL queries, visualize the results in a tabulated format, and interact with a built-in SQL query editor.
 
+Also, there are queries that load large amount of data without crashing the application 
+1. SELECT * FROM order_details; displays 2156 data without crashing the browser.
+2. SELECT * FROM orders; displays 831 data without crashing the browser.
+   
 ## Live Demo
 
 You can access the live version of this application at: [SQL Query Random Editor](https://sql-query-random-editor.netlify.app/)
