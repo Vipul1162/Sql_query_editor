@@ -7,6 +7,8 @@ import TableData3 from './components/TableData3';
 import TableData4 from './components/TableData4';
 import TableData5 from './components/TableData5';
 import TableData6 from './components/TableData6';
+import TableData7 from './components/TableData7';
+
 
 import './App.css';
 
@@ -51,6 +53,8 @@ const App = () => {
       component: TableData5 
     },
     { id: 6, name: 'SELECT * FROM Order_Details', component: TableData6 },
+    { id: 7, name: 'SELECT * FROM Orders', component: TableData7 },
+
   ];
 
   // Toggle between the coding environment and manual queries
