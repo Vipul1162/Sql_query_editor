@@ -18,7 +18,6 @@ You can access the live version of this application at: [SQL Query Random Editor
 - **Major Plugins/Packages Installed**:
   - Ace Editor: For providing an efficient SQL query editor interface.
   - React Bootstrap: For styling and responsive design components.
-  - (Any other relevant packages or plugins you've used.)
 
 ## Features
 
@@ -63,4 +62,3 @@ To enhance the user experience and optimize the application's performance, the f
 - React.js
 - Ace Editor
 - React Bootstrap
-- (List any other dependencies here.)
