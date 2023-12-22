@@ -6,6 +6,8 @@ import TableData2 from './components/TableData2';
 import TableData3 from './components/TableData3';
 import TableData4 from './components/TableData4';
 import TableData5 from './components/TableData5';
+import TableData6 from './components/TableData6';
+
 import './App.css';
 
 // Function to execute a query (Dummy logic in this example)
@@ -48,6 +50,7 @@ const App = () => {
       name: 'SELECT Users.name AS userName, Users.age, Cities.name AS city FROM Users INNER JOIN Cities ON Users.cityId = Cities.id', 
       component: TableData5 
     },
+    { id: 6, name: 'SELECT * FROM Order_Details', component: TableData6 },
   ];
 
   // Toggle between the coding environment and manual queries
