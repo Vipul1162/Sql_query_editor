@@ -26,7 +26,8 @@ You can access the live version of this application at: [SQL Query Random Editor
 ## Performance Metrics
 
 - **Page Load Time**: To measure the page load time of the application, you can utilize the built-in developer tools available in modern web browsers such as Google Chrome.
-  
+  ![Page Loading Break-out and Graph in milli seconds](./page=load.png)
+
   
 - **Measurement Method**: Follow the steps below to measure the page load time using Google Chrome's Developer Tools:
   1. **Open Developer Tools**: Right-click on your web page and select `Inspect` or press `Ctrl + Shift + I` (Windows/Linux) or `Cmd + Option + I` (Mac) to open Developer Tools.
